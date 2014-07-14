@@ -14,6 +14,7 @@ class subject {
 
 void f(vector<subject>* i)
 {
+   (*i)[0].name = "changed";
    cout << (*i)[0].name << endl;
 }
 
