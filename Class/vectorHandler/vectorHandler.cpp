@@ -1,7 +1,7 @@
 #include <vector>
-#include "vectorhandler.h"
+#include "vectorHandler.h"
 
-std::vector<int> findIndex(std::vector<int> *v,int target)
+std::vector<int> vectorHandler::findIndex(std::vector<int>* v,int target)
 {
 
     std::vector<int> keep;
