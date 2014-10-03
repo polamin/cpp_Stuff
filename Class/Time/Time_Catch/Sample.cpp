@@ -6,7 +6,6 @@ using namespace std;
 int main () 
 {
   time_catch timer;
-  double last_duration;
   while(1)
   {
     double time_from_catch = timer.get_time();
